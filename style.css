@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+body{
+background-color: #000;
+}
+
+.container{
+display: flex;
+
+}
+
+
+
+.column{
+width: 245px;
+display: flex;
+flex-direction: column;
+margin: 0px 10px;
+margin-left: 22px;
+position: relative;
+}
+
+.column > img{
+    margin: 10px 0px;
+}
+
+/* 
+.column::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    height: 100%; 
+    /* opacity: 1; */
+
+   
+    /* z-index: 100; */
+
+ 
+/* }
+
+
+.column:hover::after {
+    content: 'Awwwards The world';
+    transition: all .5s;
+    bottom: 10%;
+    top: 85%;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    align-items: flex-end;
+    /* opacity: 1; */
+
+} 
+
+
+.column::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    height: 100%; 
+    color: #fff;
+    font-size: 12px;
+    filter: grayscale(1);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.box1 :hover::after {
+
+        content: 'Locasette from Quebec';
+        transition: all .5s;
+        bottom: 10%;
+        top: 85%;
+        left: 0;
+        width: 100%;
+        height: 10%;
+        align-items: flex-end;
+        /* opacity: 1; */
+        background: none;
+}
